@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#app {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding: 50px;
+}
+button,
+select,
+input {
+  background: none;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  outline: none;
+}
+button:hover,
+select:hover,
+input:hover,
+table:hover.a:hover {
+  transition: 0.2s;
+  border: 1px solid lightgrey;
+}
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  border: 1px solid lightgrey;
+}
+
+tr:hover {
+  background-color: whitesmoke;
+}
+section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border: 1px solid lightgrey;
+}
+fieldset {
+  border: none;
+}
+legend {
+  font-size: large;
+}
+label {
+  margin: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
